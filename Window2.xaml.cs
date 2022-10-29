@@ -42,32 +42,32 @@ namespace WPF_Rassokhin_PR_10
 
         private void CoffieCheckBox_Checked(object sender, RoutedEventArgs e)
         {
-            cofe_1.Source = new BitmapImage(new Uri("Image/cofe.jpg", UriKind.Relative));
+            cofe_1.Source = new BitmapImage(new Uri("Image/Xleb.jpg", UriKind.Relative));
         }
 
         private void TeaCheckBox_Checked(object sender, RoutedEventArgs e)
         {
-            cofe_1.Source = new BitmapImage(new Uri("Image/Tea.jpg", UriKind.Relative));
+            cofe_1.Source = new BitmapImage(new Uri("Image/vatrushki.jpg", UriKind.Relative));
         }
 
         private void OrangeJuiceCheckBox_Checked(object sender, RoutedEventArgs e)
         {
-            cofe_1.Source = new BitmapImage(new Uri("Image/Oranje.jpg", UriKind.Relative));
+            cofe_1.Source = new BitmapImage(new Uri("Image/oponki.jpg", UriKind.Relative));
         }
 
         private void MilkCheckBox_Checked(object sender, RoutedEventArgs e)
         {
-            cofe_1.Source = new BitmapImage(new Uri("Image/Milk.jpg", UriKind.Relative));
+            cofe_1.Source = new BitmapImage(new Uri("Image/pirozhki.jpg", UriKind.Relative));
         }
 
         private void IcedTeaCheckBox_Checked(object sender, RoutedEventArgs e)
         {
-            cofe_1.Source = new BitmapImage(new Uri("Image/Ice_Tea.jpg", UriKind.Relative));
+            cofe_1.Source = new BitmapImage(new Uri("Image/baget.jpeg", UriKind.Relative));
         }
 
         private void MangoShakeCheckBox_Checked(object sender, RoutedEventArgs e)
         {
-            cofe_1.Source = new BitmapImage(new Uri("Image/Mango.jpg", UriKind.Relative));
+            cofe_1.Source = new BitmapImage(new Uri("Image/syxari.jpg", UriKind.Relative));
         }
     }
 }

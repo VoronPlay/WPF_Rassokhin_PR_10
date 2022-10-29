@@ -16,8 +16,8 @@
                          FontWeight="Bold">
                 <CheckBox Name="CoffieCheckBox" Checked="CoffieCheckBox_Checked">
                     <StackPanel Orientation="Horizontal">
-                        <Image x:Name="cofe" Source="Image/cofe.jpg" Height="30"></Image>
-                        <TextBlock Text="Coffie"></TextBlock>
+                        <Image x:Name="cofe" Source="Image/Xleb.jpg" Height="30"></Image>
+                        <TextBlock Text="Хлеб"></TextBlock>
                     </StackPanel>
                 </CheckBox>
             </ListBoxItem>
@@ -29,8 +29,8 @@
                          FontWeight="Bold">
                 <CheckBox Name="TeaCheckBox" Checked="TeaCheckBox_Checked">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="Image/Tea.jpg" Height="30"></Image>
-                        <TextBlock Text="Tea"></TextBlock>
+                        <Image Source="Image/vatrushki.jpg" Height="30"></Image>
+                        <TextBlock Text="Ватрюшка"></TextBlock>
                     </StackPanel>
                 </CheckBox>
             </ListBoxItem>
@@ -41,8 +41,8 @@
                          FontWeight="Bold">
                 <CheckBox Name="OrangeJuiceCheckBox" Checked="OrangeJuiceCheckBox_Checked">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="Image/Oranje.jpg" Height="30"></Image>
-                        <TextBlock Text="Orange Juice"></TextBlock>
+                        <Image Source="Image/oponki.jpg" Height="30"></Image>
+                        <TextBlock Text="Пончик"></TextBlock>
                     </StackPanel>
                 </CheckBox>
             </ListBoxItem>
@@ -53,8 +53,8 @@
                          FontWeight="Bold">
                 <CheckBox Name="MilkCheckBox" Checked="MilkCheckBox_Checked">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="Image/Milk.jpg" Height="30"></Image>
-                        <TextBlock Text="Milk"></TextBlock>
+                        <Image Source="Image/pirozhki.jpg" Height="30"></Image>
+                        <TextBlock Text="Пирожок"></TextBlock>
                     </StackPanel>
                 </CheckBox>
             </ListBoxItem>
@@ -65,8 +65,8 @@
                          FontWeight="Bold">
                 <CheckBox Name="IcedTeaCheckBox" Checked="IcedTeaCheckBox_Checked">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="Image/Ice_Tea.jpg" Height="30"></Image>
-                        <TextBlock Text="Iced Tea"></TextBlock>
+                        <Image Source="Image/baget.jpeg" Height="30"></Image>
+                        <TextBlock Text="Багед с сыром"></TextBlock>
                     </StackPanel>
                 </CheckBox>
             </ListBoxItem>
@@ -77,8 +77,8 @@
                          FontWeight="Bold">
                 <CheckBox Name="MangoShakeCheckBox" Checked="MangoShakeCheckBox_Checked">
                     <StackPanel Orientation="Horizontal">
-                        <Image Source="Image/Mango.jpg" Height="30"></Image>
-                        <TextBlock Text="Mango Shake"></TextBlock>
+                        <Image Source="Image/syxari.jpg" Height="30"></Image>
+                        <TextBlock Text="Сухари"></TextBlock>
                     </StackPanel>
                 </CheckBox>
             </ListBoxItem>
@@ -98,7 +98,7 @@
         <Button Height="23" Content="Delete Item" VerticalAlignment="Top"
                 HorizontalAlignment="Left" x:Name="Sort" Margin="105,271,0,0" Width="89" Click="Delet_Click"/>
         <StackPanel Margin="240,14,325,152">
-            <Image x:Name="cofe_1" Source="Image\cofe.jpg" Width="800" Height="450"/>
+            <Image x:Name="cofe_1" Width="800" Height="450"/>
         </StackPanel>
     </Grid>
 </Window>

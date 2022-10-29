@@ -108,7 +108,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Image\baget.jpeg" />
+    <Resource Include="Image\oponki.jpg" />
+    <Resource Include="Image\pirozhki.jpg" />
+    <Resource Include="Image\syxari.jpg" />
+    <Resource Include="Image\vatrushki.jpg" />
+    <Resource Include="Image\Xleb.jpg" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\cofe.jpg" />
     <Resource Include="Image\Ice_Tea.jpg" />
